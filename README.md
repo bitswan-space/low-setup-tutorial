@@ -3,7 +3,9 @@ Use this repository to get started with bitswan and write your first pump!
 
 ## Prerequisites
 
-you don't have to have installed bitswan, but you need to have installed docker and docker-compose. If you have bitswan installed, you can use the templates in the `pump_templates` folder to create your first pump all by yourself.
+- bspump library
+- docker and docker-compose
+- git
 
 
 # Getting started
