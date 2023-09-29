@@ -41,15 +41,15 @@ you should see output similar to this:
 ```
 ## Step 5: Pummp data to kafka topic
 
-Firstly, you have to start local kafka instance. go to root directory of this repository and enter ```bash
+Firstly, you have to start a local Kafka instance. go to the root directory of this repository and enter ```bash
 docker-compose up -d
-```
-kafka, zookeeper, and kafdrop should have been started. Now test your kafka by going to ``
 
+kafka, zookeeper, and kafdrop should have been started. Now test your kafka by going to kafka UI on
+`http://localhost:9000` 
 
-This pump is responsible for pumping data to kafka, but when you firstly run it, it was configured to just dump the events. You can change behaviour of pumps in `pipline.py`.
+This pump is responsible for pumping data to Kafka, but when you firstly run it, it was configured to just dump the events. You can change the behaviour of pumps in `pipline.py`.
 
-Go to `sample_kafka_pump/tutorialpump/pipeline.py` and change the pump sink based on instructions in the file. You can also change the pump source, but it is not necessary for this tutorial.
+Go to `sample_kafka_pump/tutorialpump/pipeline.py` and change the pump sink based on the instructions in the file. You can also change the pump source, but it is not necessary for this tutorial.
 
 You can check if your pump is working by running the following command in your terminal:
 ```bash
