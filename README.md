@@ -11,7 +11,7 @@ you don't have to have installed bitswan, but you need to have installed docker 
 ## Step 1: Clone this repository
 
 ```bash
-git clone <https-url of this repo>
+git clone https://github.com/bitswan-space/low-setup-tutorial.git
 ```
 
 ## Step 2: Run your first pump with kafka locally using docker-compose
